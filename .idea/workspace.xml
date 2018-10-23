@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977f21fa-afe8-423d-9e8d-6af92a4c3237" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/irisDataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01StandardNormalization/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01StandardNormalization/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +60,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="10" />
+          <entry key="jpg" value="1" />
+          <entry key="md" value="12" />
           <entry key="patch" value="2" />
+          <entry key="png" value="2" />
           <entry key="py" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="10" />
+          <entry key="Image" value="3" />
+          <entry key="Markdown" value="12" />
           <entry key="PATCH" value="2" />
           <entry key="Python" value="31" />
         </counts>
@@ -118,7 +121,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="238" />
     <option name="y" value="33" />
     <option name="width" value="1027" />
@@ -394,9 +397,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="33" width="1027" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.2926577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.32454696" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,24 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01StandardNormalization/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="-3295">
-            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/twenty_newsgroups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1937">
@@ -587,6 +572,33 @@
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01StandardNormalization/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01StandardNormalization/image/Picture1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01StandardNormalization/image/TuringEmmy201810201540003474.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01StandardNormalization/image/TuringEmmy201810201540004005.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
