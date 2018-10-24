@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="977f21fa-afe8-423d-9e8d-6af92a4c3237" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +61,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="md" value="590" />
+          <entry key="md" value="795" />
           <entry key="py" value="4934" />
           <entry key="txt" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="590" />
+          <entry key="Markdown" value="795" />
           <entry key="PLAIN_TEXT" value="191" />
           <entry key="Python" value="4934" />
         </counts>
@@ -75,7 +76,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
-          <entry key="md" value="16" />
+          <entry key="md" value="17" />
           <entry key="patch" value="2" />
           <entry key="png" value="2" />
           <entry key="py" value="41" />
@@ -85,7 +86,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="Markdown" value="16" />
+          <entry key="Markdown" value="17" />
           <entry key="PATCH" value="2" />
           <entry key="Python" value="39" />
           <entry key="Scratch" value="1" />
@@ -98,20 +99,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/03StandardScaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/02fetch_20newsgroups.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="241">
+                <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -150,8 +145,8 @@
         <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/demo.py" />
         <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/02StandardScaler.py" />
         <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/03StandardScaler.py" />
-        <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md" />
         <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/02fetch_20newsgroups.py" />
+        <option value="$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md" />
       </list>
     </option>
   </component>
@@ -162,9 +157,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
+    <option name="x" value="585" />
+    <option name="y" value="52" />
     <option name="width" value="613" />
-    <option name="height" value="735" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -345,10 +341,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="757" y="0" width="613" height="735" extended-state="0" />
+    <frame x="761" y="47" width="613" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.3363472" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" weight="0.3363472" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.32454696" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -546,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="151">
-            <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/01irisDataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -572,8 +558,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/02fetch_20newsgroups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="102">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02OverviewOfMachineLearning/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="241">
+            <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
