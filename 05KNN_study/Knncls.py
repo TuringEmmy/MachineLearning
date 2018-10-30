@@ -6,10 +6,10 @@
 '''
 
 import pandas as pd
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.preprocessing import StandardScaler
+
 
 
 def knncls():
@@ -48,7 +48,7 @@ def knncls():
 
     data = data[data['place_id'].isin(tf.place_id)]
 
-    # 取出数据特征的当中的特征值
+    # 取出数据特征++22的当中的特征值
     y = data['place_id']
 
     x = data.drop(['place_id'], axis=1)
@@ -70,9 +70,6 @@ def knncls():
     # 得出准确率
     print('预测的准确率:', knn.score(x_test, y_test))
     # ===========================================================
-
-
-
 
     return None
 
