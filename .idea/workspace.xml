@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="977f21fa-afe8-423d-9e8d-6af92a4c3237" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07Bayes/GridSearchCV_study.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07Bayes/classification_study.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07Bayes/naviebayes_study.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07Bayes/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08tree/Decision_study.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08tree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08tree/random_forest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08tree/tree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/01DictVectorizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/DictVectorizer_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/02TfidfVectorizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/TfidfVectorizer_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/03MinMaxScaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/MinMaxScaler_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/04StandardScaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/StandardScaler_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/05Imputer.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/Imputer_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/06PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/PCA_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/07VarianceThreshold.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/VarianceThreshold_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01StandardNormalization/08Instacart.py" beforeDir="false" afterPath="$PROJECT_DIR$/01StandardNormalization/Instacart_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/01irisDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/irisDataset_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/02fetch_20newsgroups.py" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/fetch_20newsgroups_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02OverviewOfMachineLearning/03StandardScaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/02OverviewOfMachineLearning/StandardScaler_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03NearestNeighborAlgorithm/01Knncls.py" beforeDir="false" afterPath="$PROJECT_DIR$/05KNN_study/Knncls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03NearestNeighborAlgorithm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/05KNN_study/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03NearestNeighborAlgorithm/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/05KNN_study/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Bayes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/07Bayes/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="977f21fa-afe8-423d-9e8d-6af92a4c3237" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +48,7 @@
     <session id="1403215403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.136" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -156,7 +131,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08tree/random_forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="286">
               <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
             </state>
           </provider>
@@ -503,7 +478,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="656" y="0" width="850" height="745" extended-state="0" />
+    <frame x="187" y="0" width="850" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.16202532" />
@@ -511,7 +486,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2831424" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2831424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -889,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08tree/random_forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="286">
           <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
