@@ -47,18 +47,22 @@ def decision():
     rf = RandomForestClassifier()
 
     param = {
-        'n_estimators':[120,200,300,500,800,1200],
-        "max_depth":[5,8,15,25,30]
+        'n_estimators': [120, 200, 300, 500, 800, 1200],
+        "max_depth": [5, 8, 15, 25, 30]
     }
 
     # 网格搜索与交叉验证
-    gc = GridSearchCV(rf,param_grid=param,cv=2)
+    gc = GridSearchCV(rf, param_grid=param, cv=2)
 
-    gc.fit(x_train,y_train)
+    gc.fit(x_train, y_train)
 
-    print("准确率:",gc.score(x_test,y_test))
-    print("查看选择的参数的模型：",gc.best_params_)
+    # 预测准确率
+    print("准确率:", gc.score(x_test, y_test))
+
+    # 查看选择的参数的模型
+    print("查看选择的参数的模型：", gc.best_params_)
     return None
+
 
 if __name__ == '__main__':
     decision()

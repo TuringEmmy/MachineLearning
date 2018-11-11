@@ -6,14 +6,12 @@
 from sklearn.preprocessing import StandardScaler
 
 s = StandardScaler()
-
 result = s.fit_transform(
     [
         [2, 2, 10],
         [4, 125, 6]
     ]
 )
-
 print(result)
 
 # 在进行实例化
