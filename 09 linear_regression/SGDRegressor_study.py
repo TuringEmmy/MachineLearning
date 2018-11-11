@@ -1,11 +1,11 @@
 # author    TuringEmmy
-# time      2018/11/11 16:22
+# time      2018/11/11 17:49
 # project   MachineLearning
 
 
 from sklearn.datasets import load_boston
 # 波斯顿房价
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import SGDRegressor, LinearRegression
 
 from sklearn.model_selection import train_test_split
 
@@ -36,7 +36,8 @@ def myLinear():
     std_y = StandardScaler()
 
     # *******************0.19版本必须传入二维的数据************************
-    y_train = std_y.fit_transform(y_train.reshape(-1, 1))
+    # y_train = std_y.fit_transform(y_train.reshape(-1, 1))
+    y_train = std_y.fit_transform(y_train.reshape(1, -1))
 
     y_test = std_y.transform(y_test)
 
@@ -48,11 +49,14 @@ def myLinear():
 
     print(lr.coef_)
 
-    # 这里没有准确率的说法了，只有
+    # 梯度下降去进行房价的预测
+    sgd = SGDRegressor()
+    sgd.fit(x_train, y_train)
+    print(sgd.coef_)
 
     # 预测测试集的房子的价格
-    y_predict = lr.predict(x_test)
-    print("测试集里面每个房子的预测价格:", y_predict)
+    y_sgd_predict = std_y.inverse_transform(sgd.predict(x_test))
+    print("测试集里面每个房子的预测价格:", y_sgd_predict)
 
     return None
 
