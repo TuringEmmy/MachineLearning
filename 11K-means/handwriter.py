@@ -3,7 +3,7 @@
 # project   MachineLearning
 from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
-
+from sklearn import datasets
 
 def kmeans():
     """
@@ -12,7 +12,7 @@ def kmeans():
     """
     # 加载数据
 
-    ld = load_digits()
+    ld = datasets.load_digits()
 
     print(ld.target[:20])
 
