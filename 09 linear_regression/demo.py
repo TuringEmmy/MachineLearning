@@ -12,5 +12,5 @@ plt.figure(figsize=(10, 10))
 x = [60, 72, 75, 80, 83]
 y = [126, 152, 151, 157.5, 168]
 plt.scatter(x, y)
-plt.savefig('./房价散点图.png')
+# plt.savefig('./房价散点图.png')
 plt.show()

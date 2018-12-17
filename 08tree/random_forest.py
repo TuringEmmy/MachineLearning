@@ -6,13 +6,16 @@ import pandas as pd
 
 # 导入字典抽取
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
+# from sklearn.cross_validation import train_test_split
 
 # 随机森林
 from sklearn.ensemble import RandomForestClassifier
 
 # 决策树
-from sklearn.grid_search import GridSearchCV
+from sklearn.model_selection import  GridSearchCV
+# 下面方法弃用
+# from sklearn.grid_search import GridSearchCV
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
 
 

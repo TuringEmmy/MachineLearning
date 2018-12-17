@@ -5,7 +5,8 @@
 from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge
 from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import load_boston
-from sklearn.cross_validation import train_test_split
+from  sklearn.model_selection import train_test_split
+# from sklearn.cross_validation import train_test_split
 from sklearn.metrics import mean_squared_error,classification_report
 from sklearn.cluster import KMeans
 

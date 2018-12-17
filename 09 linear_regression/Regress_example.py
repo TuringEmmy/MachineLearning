@@ -1,7 +1,8 @@
 # author    TuringEmmy
 # time      2018/11/11 20:37
 # project   MachineLearning
-from sklearn.cross_validation import train_test_split
+from  sklearn.model_selection import  train_test_split
+# from sklearn.cross_validation import train_test_split
 from sklearn.datasets import load_boston
 from sklearn.linear_model import Ridge, LinearRegression, SGDRegressor
 from sklearn.metrics import mean_squared_error

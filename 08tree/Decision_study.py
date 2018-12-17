@@ -7,7 +7,8 @@ import pandas as pd
 
 # 导入字典抽取
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
+# from sklearn.cross_validation import train_test_split
 # 决策树
 from sklearn.tree import DecisionTreeClassifier, export_graphviz
 
