@@ -71,3 +71,23 @@ fit(x_train,y_train)
 
 
 
+查询了网络，没有找到相关的解决办法，只好自己琢磨解决。
+
+解决办法如下：
+1）下载20news-bydate.tar.gz
+2）下载20news-bydate.pkz
+以上两个文件直接在网络上搜索，有很多链接的。
+
+3）在~\scikit_learn_data\20news_home 下解压20news-bydate.tar.gz，有2个目录： 20news-bydate-test和20news-bydate-train
+~表示什么就不用多说了吧。
+
+4）拷贝20news-bydate.pkz到~\scikit_learn_data\下面，并改名为：20news-bydate_py3.pkz
+这就是最关键的一步，一定要改名。
+
+
+
+
+
+
+
+
